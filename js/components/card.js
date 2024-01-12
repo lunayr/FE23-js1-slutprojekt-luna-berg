@@ -39,6 +39,8 @@ export function card(data) {
   return link;
 }
 
+
+// Source: https://shoelace.style/
 /**
  * <sl-card class="card-overview">
     <img

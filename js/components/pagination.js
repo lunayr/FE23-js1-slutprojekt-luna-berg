@@ -18,7 +18,7 @@ const paginationButton = (url, text) => {
 };
 
 export function pagination(maxPage) {
-  console.log("ss");
+  
   let hash = window.location.hash;
   let urlParts = hash.split("/");
   let page = Number(urlParts.pop()); 

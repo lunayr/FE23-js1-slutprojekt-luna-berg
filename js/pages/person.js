@@ -50,7 +50,7 @@ export async function renderPerson(url) {
 
   $("#root").append(
     mediaCard,
-    createContainer.append(
+    container().append(
       recommendationGrid
         ? container("bottom-padding").append(
             $("<h2>Known for</h2>"),
