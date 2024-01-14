@@ -12,6 +12,7 @@ export function getIdFromUrl(url) {
   //rebel-moon-part-one-a-child-of-fire-848326
   let urlParts = url.split("-");
 
+  //Returning the ID
   return urlParts[urlParts.length - 1];
 }
 
