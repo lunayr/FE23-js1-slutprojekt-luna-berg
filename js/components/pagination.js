@@ -54,9 +54,3 @@ export function pagination(maxPage) {
   return paginationContainer;
 }
 
-//#/search/ssss/1
-//[#,search,ssss,1]
-//[#,search,ssss] , 1
-//[#,search,ssss].join("/") => "#/search/ssss"
-
-//#/search/ssss/2
