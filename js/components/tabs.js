@@ -1,26 +1,3 @@
-// let exampleContent = [
-//   {
-//     id: "general",
-//     title: "Luna",
-//     content: "This is the general tab panel.",
-//   },
-//   {
-//     id: "custom",
-//     title: "Custom",
-//     content: "This is the custom tab panel.",
-//   },
-//   {
-//     id: "advanced",
-//     title: "Advanced",
-//     content: "This is the advanced tab panel.",
-//   },
-//   {
-//     id: "disabled",
-//     title: "Disabled",
-//     content: "This is the disabled tab panel.",
-//   },
-// ];
-
 export function tabs(content) {
   let tabs = $("<sl-tab-group></sl-tab-group>");
   content.forEach((tab) => {
@@ -34,6 +11,8 @@ export function tabs(content) {
   return tabs;
 }
 
+
+// Source from shoelace being used to create tabs().
 /* <sl-tab-group>
     <sl-tab slot="nav" panel="general">General</sl-tab>
     <sl-tab slot="nav" panel="custom">Custom</sl-tab>
@@ -45,3 +24,4 @@ export function tabs(content) {
     <sl-tab-panel name="advanced">This is the advanced tab panel.</sl-tab-panel>
     <sl-tab-panel name="disabled">This is a disabled tab panel.</sl-tab-panel>
 </sl-tab-group> */
+
