@@ -39,7 +39,7 @@ export function card(data) {
   return link;
 }
 
-
+// The source of card component from the library that is used to create card() function
 // Source: https://shoelace.style/
 /**
  * <sl-card class="card-overview">
