@@ -1,5 +1,5 @@
 # FE23-js1-slutprojekt-luna-berg
 
-This project aims to search movies, TV shows and actors. https://www.themoviedb.org/ is used for the data.
+This Single Page Application (SPA) is designed for searching movies, TV shows, and actors, utilizing data sourced from https://www.themoviedb.org/. Further enhancements can be implemented to improve usability and optimize the application for smaller screens.
 
 
