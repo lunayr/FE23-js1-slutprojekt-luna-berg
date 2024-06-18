@@ -1,4 +1,4 @@
-Libraries for the project:
+Tools/libraries used for the project:
 -  jQuery
 -  Shoelace
 
