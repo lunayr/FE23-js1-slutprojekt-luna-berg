@@ -1,9 +1,7 @@
 Tools used for the project:
 -  jQuery
 -  Shoelace
--  Nodejs
--  Express
--  Cors
+
 
 ## Movie24
 
